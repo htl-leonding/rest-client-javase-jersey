@@ -2,7 +2,6 @@ package at.htl.restclient.rest;
 
 import at.htl.restclient.model.Team;
 import at.htl.restclient.repository.Repo;
-import org.glassfish.jersey.client.ClientResponse;
 
 import javax.json.Json;
 import javax.json.JsonArray;
@@ -11,10 +10,8 @@ import javax.json.JsonValue;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Request;
 import javax.ws.rs.core.Response;
 import java.io.StringReader;
-import java.util.List;
 
 /**
  * https://jersey.github.io/documentation/latest/client.html#d0e4716
